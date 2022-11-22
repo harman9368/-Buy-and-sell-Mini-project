@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy and Sell</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="./img/logo3.jpeg " widht=40px height=40px alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="sell.html">Sell</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="./img/products/f1.jpg" width="100%" id="MainImg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="./img/products/f1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="./img/products/f2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="./img/products/f3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="./img/products/f4.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>Home /T-Shirt</h6>
+            <h4>Men's Fashion T Shirt</h4>
+            <h2>$139.00</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>Small</option>
+                <option>Large</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sapiente eaque laboriosam! Rem
+                aspernatur voluptates itaque facilis, repudiandae in debitis saepe sint, minus fuga voluptatum nam enim
+                officia unde nobis!</span>
+        </div>
+    </section>
+
+    <!-- add product (go to part-2 time 25min)
+    <section id="product1"></section> -->
+
+<!-- Footer ke niche(Upar footer rahega)  -->
+    <script>
+        var MainImg=document.getElementById("MainImg");
+        var smallimg=document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick=function()
+        {
+            MainImg.src=smallimg[0].src;
+        }
+        smallimg[1].onclick=function()
+        {
+            MainImg.src=smallimg[1].src;
+        }
+        smallimg[2].onclick=function()
+        {
+            MainImg.src=smallimg[2].src;
+        }
+        smallimg[3].onclick=function()
+        {
+            MainImg.src=smallimg[3].src;
+        }
+    </script>
+ <!-- Watch part 2 video from 30min -->
+    <script src="script.js"></script>
+</body>
+
+</html>
