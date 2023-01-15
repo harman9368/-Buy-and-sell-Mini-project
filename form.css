@@ -1,0 +1,111 @@
+body {
+
+  background-color: #818ea0;
+}
+
+.center-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -10%;
+  margin-left: -10%;
+  transform: translate(-50%-50%);
+  border: 2px solid white;
+  border-radius: 40px;
+  width: 300px;
+  height: 320px;
+  text-align: center;
+  color: white;
+}
+
+.text-field {
+  padding: 10px 30px;
+  margin: 20px 0;
+  border: 2px solid white;
+   border-radius: 10px;
+  font-size: 12pt;
+  color: rgb(243, 181, 150);
+}
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #48bbb3;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  text-decoration: none;
+  text-decoration-color: aliceblue;
+}
+
+.btn-style {
+  padding: 10px 30px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: white;
+  color: rgb(252, 188, 172);
+}
+.btn-style:hover{
+  background-color: rgba(56, 54, 52, 0.433);
+  color: white;
+
+}
+.an-btn
+{
+  margin-top: 10px;
+  border: 0;
+  background-color: rgb(223, 179, 145);
+  color: rgb(255, 255, 255);
+  font-size: 11pt;
+}
+#register-div{
+  display: none;
+}
+
+.botton-box{
+  padding: 8px 16px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+.botton-box:hover{
+  background-color: white;
+  color: black;
+}
+h3{
+  text-align: center;
+  font-size: 22px;
+}
+#user-aprv{
+  display: none;
+}
+#register-dis{
+  display: none;
+}
+#Register{
+  display: inline;
+  padding: 10px 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#result-box{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 16pt;
+  color: white;
+}
+.temp{
+margin-left: 47%;
+margin-top: 37%;
+text-decoration: none;
+
+}
