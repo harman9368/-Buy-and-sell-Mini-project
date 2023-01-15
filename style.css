@@ -85,7 +85,7 @@ body {
     background-color: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     left: 0;
 }
@@ -140,11 +140,11 @@ body {
 /* Home Page */
 
 #hero {
-    background-image: url(img/hero4.png);
+    background-image: url(img/hero5.jpg);
     height: 80vh;
     width: 100%;
     background-size: cover;
-    background-position: top 25% right 0;
+    background-position: top 15% right 0;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
@@ -481,6 +481,10 @@ body {
     white-space: nowrap;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+}
+
+#newsletter button a{
+    text-decoration: none;
 }
 
 footer {
